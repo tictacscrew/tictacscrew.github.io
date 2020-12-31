@@ -7,7 +7,7 @@ var sx = 5;
 var sy = 5;
 
 function setup() {
-  createCanvas(window.innerWidth-20, window.innerHeight-20);
+  createCanvas(window.innerWidth, window.innerHeight);
   b = createArray(sx,sy);
   for(var i=0;i<b.length;i++){for(var j=0;j<b[0].length;j++){b[i][j]=0}}
   textSize(80);
