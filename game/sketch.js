@@ -5,7 +5,7 @@ var a =1000;
 var aa= 1000;
 var sx = 5;
 var sy = 5;
-
+ 
 function setup() {
   b = createArray(sx,sy);
   for(var i=0;i<b.length;i++){for(var j=0;j<b[0].length;j++){b[i][j]=0}}
