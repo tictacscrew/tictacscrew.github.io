@@ -7,10 +7,11 @@ var sx = 5;
 var sy = 5;
 
 function setup() {
-  b = createArray(sx,sy); 
+  b = createArray(sx,sy);
   for(var i=0;i<b.length;i++){for(var j=0;j<b[0].length;j++){b[i][j]=0}}
-  createCanvas(b.length*100+20, b.length[0]*100+20);
   textSize(80);
+  createCanvas(b.length*100+20,b[0].length*100+20);
+  
   textAlign(CENTER);
 }
 
