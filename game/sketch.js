@@ -4,7 +4,7 @@ var ps=1;
 var a =1000;
 var aa= 1000;
 var sx = 5;
-var sy = 5; 
+var sy = 5;
 
 function setup() {
   createCanvas(b.length*100+20, b.length[0]*100+20);
